@@ -12,6 +12,7 @@
   --additional-color: #353430;
   --title-color: #ffc2e6;
   --article-text-color: #353430;
+  --subtitle-color: #353430;
   background-image: url(../images/cover-image-light.png);
   background-attachment: fixed;
 }
@@ -26,6 +27,7 @@
     --additional-color: #353430;
     --title-color: #ffc2e6;
     --article-text-color: #353430;
+    --subtitle-color: #353430;
     background-image: url(../images/cover-image-light.png);
     background-attachment: fixed;
   }
