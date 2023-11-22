@@ -14,6 +14,9 @@
   --article-text-color: #353430;
   --subtitle-color: #353430;
   background-image: url(../images/cover-image-light.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -29,6 +32,9 @@
     --article-text-color: #353430;
     --subtitle-color: #353430;
     background-image: url(../images/cover-image-light.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-attachment: fixed;
   }
 

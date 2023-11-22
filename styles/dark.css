@@ -22,6 +22,9 @@
   --article-text-color: #f1b2ce;
   --subtitle-color: #ff0070;
   background-image: url(../images/cover-image-dark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -37,6 +40,9 @@
     --article-text-color: #f1b2ce;
     --subtitle-color: #ff0070;
     background-image: url(../images/cover-image-dark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-attachment: fixed;
   }
 }
