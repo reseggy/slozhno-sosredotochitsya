@@ -6,7 +6,6 @@
   color: var(--accent-color);
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: "IBM Plex Mono", Arial, sans-serif;
-  background-color: var(--additional-color);
   background-image: url(../images/cover-image-dark.png);
   background-repeat: no-repeat;
   background-position: center;
