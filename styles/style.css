@@ -34,15 +34,15 @@
 .header::after {
   bottom: 10px;
   left: 10px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--decor-color);
+  border-left: 1px solid var(--decor-color);
 }
 
 .header::before {
   top: 10px;
   right: 10px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--decor-color);
+  border-right: 1px solid var(--decor-color);
   background-color: transparent;
 }
 
@@ -88,6 +88,7 @@
   font-size: 18px;
   text-transform: lowercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
@@ -134,7 +135,6 @@
 }
 
 .header__subtitle {
-  max-height: 117px;
   margin-top: 55px;
   margin-bottom: 55px;
   transition: margin-top 0.5s ease, margin-bottom 0.5s ease;
@@ -234,15 +234,15 @@
 .footer::after {
   bottom: 10px;
   left: 10px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--decor-color);
+  border-left: 1px solid var(--decor-color);
 }
 
 .footer::before {
   top: 10px;
   right: 10px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--decor-color);
+  border-right: 1px solid var(--decor-color);
   background-color: transparent;
 }
 
@@ -278,7 +278,6 @@
   .header__subtitle {
     justify-self: end;
     max-width: 364px;
-    max-height: 117px;
     margin-top: 162px;
     margin-bottom: 163px;
   }
@@ -417,7 +416,6 @@
   .header__subtitle {
     justify-self: end;
     max-width: 491px;
-    max-height: 71px;
     margin-top: 114px;
     margin-bottom: 114px;
   }
